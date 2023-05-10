@@ -2,7 +2,7 @@ import csv
 
 with open('filtered_data.csv', mode='w') as filtered_file:
         csv_writer = csv.writer(filtered_file)
-        csv_writer.writerow(["Sales","Data","Region"])
+        csv_writer.writerow(["Sales","Date","Region"])
 
 def filter(file):
     with open('filtered_data.csv', mode='a') as filtered_file:
